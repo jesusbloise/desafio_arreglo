@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Propiedades en Venta</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <main>
+        <h2>Propiedades en Venta</h2>
+        <div id="propiedades-venta" class="propiedades-container"></div>
+        <a href="index.html" class="back-button">Volver a la página principal</a>
+
+    </main>
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            renderizarPropiedades(propiedades_venta, 'propiedades-venta');
+        });
+    </script>
+</body>
+</html>

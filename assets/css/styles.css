@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+header {
+    position: relative;
+    height: 100vh;
+    background: url('../img/principal.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+main {
+    padding: 2em;
+}
+section {
+    margin-bottom: 2em;
+}
+.propiedades-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+.propiedad {
+    border: 1px solid #ccc;
+    padding: 1em;
+    box-sizing: border-box;
+}
+.propiedad img {
+    max-width: 100%;
+}
+.ver-mas {
+    display: block;
+    text-align: center;
+    margin: 2em 0;
+    padding: 1em;
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.ver-mas:hover {
+    background-color: #555;
+}
+.back-button {
+    display: block;
+    text-align: center;
+    margin: 2em 0;
+    padding: 1em;
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-button:hover {
+    background-color: #555;
+}
+.icono-permitido {
+    color: green;
+}
+.icono-prohibido {
+    color: red;
+}
